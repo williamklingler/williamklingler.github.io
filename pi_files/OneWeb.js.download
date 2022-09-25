@@ -1,0 +1,85 @@
+﻿(function ($) {
+	
+    // custom header message
+	
+    //Large screens
+    $("#oneweb_custommessage_login").html("<div class='alert alert-info' style='color:black; font-size:16px;' role='alert'> <p>Our recent update has brought about a few changes to Account management, inlcuding a web service password in addition to the existing account related Pin. All users should use the new <a href='ResetPin'style='color:#224F77'>Create Password function</a> under the Account Settings tab to create a new password for accessing web services. Your password should be sufficiently long (15+ characters), complex (a variety of number, letters or special characters) and unique (not used as a password for any other services). If you are not using a password manager then we recommend following <a href='https://uwaterloo.ca/cyber-awareness/password-best-practices-and-guidelines' style='color:#224F77'>password best practices and guidelines</a>.</p><p style='font-weight:bold;'>Login below using the eight digit WatCard account number located below your name on the front of your WatCard.</p></div>");
+	//<p>Once you have your WatCard, you can set up your account in order to check your balances, add funds and view your transactions. <p>In order to access your account information, please login below using the eight digit WatCard account number located below your name on the front of your WatCard. <p>If you do not know your PIN code, you can <a href='https://watcard.uwaterloo.ca/OneWeb/Account/ResetPIN'>Reset Your Password</a>.</div>"); <p>If you experience issues creating a new password, or have not received an email with your verification code then please contact our office at <a href='mailto:watcard@uwaterloo.ca?subject=Error%20Creating%20Password' style='color:#224F77'>watcard@uwaterloo.ca.</a>
+
+    // Small screens
+    $("#oneweb_custommessage_login_xs").html("<div class='alert alert-info' style='color:black; font-size:16px;' role='alert'> <p>Our recent update has brought about a few changes to Account management, inlcuding a web service password in addition to the existing account related Pin. All users should use the new <a href='ResetPin' style='color:#224F77'>Create Password function</a> under the Account Settings tab to create a new password for accessing web services. Your passord should be sufficiently long (15+ characters), complex (a variety of number, letters or special characters) and unique (not used as a password for any other services). If you are not using a password manager then we recommend following <a href='https://uwaterloo.ca/cyber-awareness/password-best-practices-and-guidelines' style='color:#224F77'>password best practices and guidelines</a>.</p><p style='font-weight:bold;'>Login below using the eight digit WatCard account number located below your name on the front of your WatCard.</p></div>");
+	//<p>Once you have your WatCard, you can set up your account in order to check your balances, add funds and view your transactions. <p>In order to access your account information, please login below using the eight digit WatCard account number located below your name on the front of your WatCard. <p>If you do not know your PIN code, you can <a href='https://watcard.uwaterloo.ca/OneWeb/Account/ResetPIN'>Reset Your Password</a>.</div>"); <p>If you experience issues creating a new password, or have not received an email with your verification code then please contact our office at <a href='mailto:watcard@uwaterloo.ca?subject=Error%20Creating%20Password' style='color:#224F77'>watcard@uwaterloo.ca.</a>
+
+    // custom deactivate message
+    //Large screens
+    $("#oneweb_custommessage_deactivate").html("<div class='alert alert-info' role='alert'><p>Lost something? Don't worry; we've got you covered. If your WatCard has been lost or stolen there are two things you need to do in order to replace it.</p><ol><li><strong>Deactivate your card.</strong> All transactions made with your WatCard are your responsibility, even if you weren't the one making them. You can deactivate your card online (just press confirm below), at the Turnkey Desk in the SLC or at any Food Services cash register.  If you find your card after it has been deactivated, bring it to the WatCard office and it will  be reactivated, free of charge.</li><li><strong>Visit the WatCard office with a piece of photo ID.</strong>  We're located inside the centre in the Needles Hall(NH) building. A new card will be issued for a replacement fee of $30.00.</li></ol></div>");
+
+    // Small screens
+    $("#oneweb_custommessage_deactivate_xs").html("<div class='alert alert-info' role='alert'><p>Lost something? Don't worry; we've got you covered. If your WatCard has been lost or stolen there are two things you need to do in  order to replace it.</p><ol><li><strong>Deactivate your card.</strong> All transactions made with your WatCard are your  responsibility, even if you weren't the one making them. You can deactivate your card online (just press Confirm below), at the Turnkey Desk in the SLC or at any Food Services cash register.  If you find your card after it has been deactivated, bring it to the WatCard office and it will  be reactivated, free of charge.</li><li><strong>Visit the WatCard office with a piece of photo ID.</strong>  We're  conveniently located inside the centre in the Needles Hall(NH) building. A new card will be issued for a replacement fee of $30.00.</li></ol></div>");
+
+    //Large screens
+    //$("#oneweb_customheader").html("<h5 style='color: white; text-align: center; margin-top: 0;'>Welcome to <strong>OneWeb</strong> site. From here you can do account maintenance, card deactivation, financial deposits, parental prepay, web elections, purchase meal plans, parking plans, events, services, variable services, and series of events.</h5>");
+
+    // Small screens
+    //$("#oneweb_customheader_xs").html("<h6 style='color: white; text-align: center; margin-top: 0;'>Welcome to <strong>OneWeb</strong> site. From here you can do account maintenance, card deactivation, financial deposits, parental prepay, web elections, purchase meal plans, parking plans, events, services, variable services, and series of events.</h6>");
+
+    // custom login message
+    //Large screens
+    //$("#oneweb_custommessage_login").html("<div class='alert alert-info' role='alert'><p>In order to access your account information, please login below.<br />If you do not know your PIN code, please contact your <a href='mailto:admin@sdynbg.com'>OneCard office</a>.</p></div>");
+  
+    // Small screens
+    //$("#oneweb_custommessage_login_xs").html("<div class='alert alert-info' role='alert'><p>If you do not know your PIN code, please contact your <a href='mailto:admin@sdynbg.com'>OneCard office</a>.</p></div>");
+  
+ 
+    // custom deposit message
+    //Large screens
+    //$("#oneweb_custommessage_deposit").html("<div class='alert alert-info' role='alert'><p>You can add funds in the desired balance via credit card.</p></div>");
+
+    // Small screens
+    //$("#oneweb_custommessage_deposit_xs").html("<div class='alert alert-info' role='alert'><p>You can add funds in the desired balance via credit card.</p></div>");
+
+    // custom parental login message
+    //Large screens
+    //$("#oneweb_custommessage_plogin").html("<div class='alert alert-info' role='alert'><p>If you are a parent and you want to add funds to your child's account, please enter your child's ID number and his/her date of birth (in the format displayed).</p></div>");
+
+    // Small screens
+    //$("#oneweb_custommessage_plogin_xs").html("<div class='alert alert-info' role='alert'><p>If you are a parent and you want to add funds to your child's account, please enter your child's ID number and his/her date of birth (in the format displayed).</p></div>");
+
+    // custom meal plan message
+    //Large screens
+    //$("#oneweb_custommessage_mealplan").html("<div class='alert alert-info' role='alert'><p>Your custom meal plan message here. Large Screens</p></div>");
+
+    // Small screens
+    //$("#oneweb_custommessage_mealplan_xs").html("<div class='alert alert-info' role='alert'><p>Your custom meal plan message here. Small Screens</p></div>");
+
+    // custom event message
+    //Large screens
+    //$("#oneweb_custommessage_event").html("<div class='alert alert-info' role='alert'><p>Your custom event message here. Large Screens</p></div>");
+
+    // Small screens
+    //$("#oneweb_custommessage_event_xs").html("<div class='alert alert-info' role='alert'><p>Your custom event message here. Small Screens</p></div>");
+
+    // custom parking plan message
+    //Large screens
+    //$("#oneweb_custommessage_parkingplan").html("<div class='alert alert-info' role='alert'><p>Your custom parking plan message here. Large Screens</p></div>");
+
+    // Small screens
+    //$("#oneweb_custommessage_parkingplan_xs").html("<div class='alert alert-info' role='alert'><p>Your custom parking plan message here. Small Screens</p></div>");
+
+    // custom service message
+
+    //Large screens
+    $("#oneweb_custommessage_service").html("<div class='alert alert-info' role='alert'><p>Please login using your WatCard account number located on the front of your WatCard below your name.</p></div>");
+
+    // Small screens
+    $("#oneweb_custommessage_service_xs").html("<div class='alert alert-info' role='alert'>Please login using your WatCard account number located on the front of your WatCard below your name.</p></div>");
+
+    // custom variable message
+    //Large screens
+    $("#oneweb_custommessage_variable").html("<div class='alert alert-info' role='alert'><p>Use the account number located on the front of your WatCard below your name.</p></div>");
+
+    // Small screens
+    $("#oneweb_custommessage_variable_xs").html("<div class='alert alert-info' role='alert'><p>Use the account number located on the front of your WatCard below your name.</p></div>");
+
+  
+}(jQuery));

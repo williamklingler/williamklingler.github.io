@@ -1,0 +1,131 @@
+﻿.ow-header-container p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.ow-header-container .h1 {
+    font-size: 30px;
+}
+
+.ow-header-container .h2 {
+    font-size: 18px;
+}
+
+.ow-text-container .h1, .ow-text-container .h2 {
+    margin: 0;
+}
+
+.ow-text-container .h3{ 
+    margin: 0;
+}
+
+.ow-page-name h1 > .ow-icon {
+    font-size: 18px;
+    top: 0px; 
+}
+
+.ow-page-name h1,
+.ow-accessibility-statement h1 { 
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4, h5, h6 {
+    font-size: 12px;
+}
+
+.ow-accessibility-statement h1,
+.ow-accessibility-statement h2,
+.ow-accessibility-statement h3,
+.ow-accessibility-statement h4,
+.ow-accessibility-statement h5,
+.ow-accessibility-statement h6 {
+    font-weight: bold;
+}
+
+#oneweb_skip_to_content1 {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#oneweb_skip_to_content a:focus, #oneweb_skip_to_content a:active { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    color: #333;
+    text-decoration: underline;
+    outline: none;
+    -webkit-transition: top .1s ease-in, background .5s linear;
+    transition: top .1s ease-in, background .5s linear;
+}
+
+#oneweb_skip_to_content a {
+    padding: 6px;
+    position: absolute;
+    top: -36px;
+    left: 0px;
+    background: #fff;
+    color: #333;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    text-align: center;
+    text-decoration: underline;
+    -webkit-transition: top 1s ease-out, background 1s linear;
+    transition: top 1s ease-out, background 1s linear;
+    z-index: 1060;
+}
+
+#oneweb_main_content {
+    outline: none;
+}
+
+.ow-required {
+    color: #a94442;
+    margin: 3px 0px 10px 0px !important;
+    font-style: italic;
+}
+
+.ow-required-mark {
+    color: #a94442;
+}
+
+.ow-btn-date {
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+
+/** Bootstrap fixes**/
+.dropdown-toggle:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.modal-footer {
+    margin-top: 0px;
+}
+
+/** for accessibility review **/
+:focus {
+   outline: 2px solid white;
+   border: black;
+   border-style: solid;
+   border-width: thin;
+}
+
+#oneweb_moredetails {
+    margin-top: 10px;
+}
